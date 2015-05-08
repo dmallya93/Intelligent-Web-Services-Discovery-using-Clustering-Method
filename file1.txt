@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+<script src="../lib/d3/d3.js"></script>
+<script src="../d3.layout.cloud.js"></script>
+<script>
+  var fill = d3.scale.category20();
+
+  d3.layout.cloud().size([300, 300])
+      .words(

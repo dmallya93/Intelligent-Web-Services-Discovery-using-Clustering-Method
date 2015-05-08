@@ -1,0 +1,13 @@
+The network access layer is concerned with the exchange of data between a
+computer and the network to which it is attached. The sending computer must pro-
+vide the network with the address of the destination computer, so that the network
+may route the data to the appropriate destination. The sending computer may wish
+to invoke certain services, such as priority, that might be provided by the network.
+The specific software used at this layer depends on the type of network to be used;
+different standards have been developed for circuit switching, packet switching,
+local area networks, and others. Thus, it makes sense to separate those functions
+having to do with network access into a separate layer. By doing this, the remain-
+der of the communications software, above the network access layer, need not be
+concerned with the specifics of the network to be used. The same higher-layer soft-
+ware should function properly regardless of the particular network to which the
+computer is attached.
